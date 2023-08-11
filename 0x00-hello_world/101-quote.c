@@ -1,11 +1,14 @@
 #include <unistd.h>
+#include <stdio.h>
 /**
  * main - Entry point
  *
- *  UNIX is basically a simple operating system, but you have to be a g *enius to understand the simplicity
+ * UNIX is basically a simple operating system, but you have to be a
  *
- * Return: Always 0 (Success)
+ * Return: 1 (Success)
  */
-int main(void) {
-    write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-    return 1;
+int main(void)
+{
+    fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+    return (1);
+}
