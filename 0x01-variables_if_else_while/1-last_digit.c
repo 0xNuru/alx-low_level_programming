@@ -27,7 +27,7 @@ int main(void)
 	last_digit = n % 10;
 	concat = (last_digit > 5) ? "and is greater than 5"
 		: (last_digit == 0) ? "and is 0"
-		: "and is less than 6 and not zero";
+		: "and is less than 6 and not 0";
 
 	printf("Last digit of %d is %d %s\n", n, last_digit, concat);
 
