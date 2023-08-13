@@ -26,10 +26,10 @@ int main(void)
 	/* your code goes there */
 	last_digit = n % 10;
 	concat = (last_digit > 5) ? "and is greater than 5"
-		: (last_digit == 0) ? "and is zero"
+		: (last_digit == 0) ? "and is 0"
 		: "and is less than 6 and not zero";
 
-	printf("Last digit of n is %d %s\n", last_digit, concat);
+	printf("Last digit of %d is %d %s\n", n, last_digit, concat);
 
 	return (0);
 }
