@@ -10,6 +10,7 @@
  * time it is executed
  * it will also print the sign attached to the number each
  * time the code is run
+ * Return: 0 for success
  */
 int main(void)
 {
