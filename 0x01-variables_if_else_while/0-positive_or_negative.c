@@ -3,8 +3,8 @@
 /* more headers go there */
 #include <stdio.h>
 /**
- *main - prints the sign
- * Description: This program will assign a random number to
+ * main - prints the sign
+ * description: This program will assign a random number to
  * a variable n each
  * time it is executed
  * it will also print the sign attached to the number each
