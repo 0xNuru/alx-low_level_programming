@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_alphabetx10 - function entry
+* print_alphabet_x10 - function entry
 *
 * Description: a function that prints the alphabet tenfold
 * Return: 0 (success)
