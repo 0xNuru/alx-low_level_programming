@@ -1,6 +1,7 @@
 /**
 * add - function name
-*
+* @a: int
+* @b: int
 * Description: a function that adds two ints
 * Return: result of addition
 */
