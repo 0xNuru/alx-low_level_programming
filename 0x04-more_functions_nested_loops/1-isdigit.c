@@ -1,8 +1,8 @@
 /**
-* _isdigit: function name
+* _isdigit - function name
 * @c: int to be checked
 *
-* Description: a function that prints the alphabet
+* Description: a function that checks for digit
 * Return: 0 (success)
 */
 int _isdigit(int c)
