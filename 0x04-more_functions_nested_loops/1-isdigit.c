@@ -1,5 +1,5 @@
 /**
-* main - entry point
+* _isdigit: function name
 * @c: int to be checked
 *
 * Description: a function that prints the alphabet
