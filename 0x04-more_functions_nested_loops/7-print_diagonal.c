@@ -2,8 +2,9 @@
 
 /**
 * print_diagonal - function name
+* @n: length of line
 *
-* Description: a function that draws a diagonal line 
+* Description: a function that draws a diagonal line
 * on the terminal.
 * Return: void
 */
