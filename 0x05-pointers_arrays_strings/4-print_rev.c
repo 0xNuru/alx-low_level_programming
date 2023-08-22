@@ -10,7 +10,7 @@
 
 void print_rev(char *s)
 {
-	int i, length, j;
+	int i;
 
 	i = 0;
 
@@ -19,12 +19,11 @@ void print_rev(char *s)
 		i++;
 		s++;
 	}
-	s = s - i;
-	length = i;
+	s = s - i;;
 
-	for (j = length; j >= 0; j--)
+	for (i -= 1; i >= 0; i--)
 	{
-		_putchar(*(j + s));
+		_putchar(*(i + s));
 	}
 	_putchar('\n');
 }
