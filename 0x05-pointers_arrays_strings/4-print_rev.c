@@ -20,7 +20,7 @@ void print_rev(char *s)
 		s++;
 	}
 	s = s - i;
-	length = i--;
+	length = i;
 
 	for (j = length; j >= 0; j--)
 	{
