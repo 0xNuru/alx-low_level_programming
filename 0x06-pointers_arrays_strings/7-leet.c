@@ -1,6 +1,6 @@
 /**
 * leet - function name
-* @x: our str
+* @str: our str
 *
 * Description: a function that encodes str to 1337
 * Return: address of result
@@ -21,5 +21,5 @@ char *leet(char *str)
 			}
 		}
 	}
-	 return (str);
+	return (str);
 }
