@@ -10,20 +10,22 @@
 
 int _strlen(char *s)
 {
-        int i;
+	int i;
 
-        i = 0;
-        while (*s)
-        {
-                i++;
-                s++;
-        }
-        return (i);
+	i = 0;
+	while (*s)
+	{
+		i++;
+		s++;
+	}
+	return (i);
 
 }
 
 /**
 * _strcat - function name
+* @dest: destination str
+* @src: src string
 *
 * Description: a function that concats two strings
 * Return: a pointer to the resulting dest
