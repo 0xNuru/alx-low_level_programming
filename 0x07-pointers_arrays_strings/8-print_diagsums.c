@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* print_diagrams - function name
+* print_diagsums - function name
 * @a: array
 * @size: size of array
 *
