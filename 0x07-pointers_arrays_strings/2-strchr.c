@@ -1,5 +1,3 @@
-#include <stddef.h>
-
 /**
 * _strchr - function name
 * @s: string
@@ -21,5 +19,5 @@ char *_strchr(char *s, char c)
 		}
 		i++;
 	}
-	return (NULL);
+	return (0);
 }
