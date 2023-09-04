@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 /**
 * create_array - function name
 * @size: size of arr
@@ -10,13 +12,13 @@
 
 char *create_array(unsigned int size, char c)
 {
-	int *arr, i;
+	unsigned int i; 
+	char *arr = malloc(sizeof(char) * size);
 
 	if (size == 0 || arr == 0)
 	{
-		return (NULL);
+		return (0);
 	}
-	arr = malloc(sizeof(char) * size);
 	for (i = 0; i < size; i++)
 	{
 		arr[i] = c;
