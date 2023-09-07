@@ -1,7 +1,7 @@
 #include <stdlib.h>
 
 /**
-* string_nresult - function name
+* string_nconcat - function name
 * @s1: first string
 * @s2: second string
 * @n: number of bytes to be resultenated
