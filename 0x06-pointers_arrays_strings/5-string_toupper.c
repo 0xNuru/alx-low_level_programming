@@ -1,4 +1,4 @@
-/**
+**
 * string_toupper - function name
 * @str: string to be checked
 * Description: a function that converts lowercase to upper

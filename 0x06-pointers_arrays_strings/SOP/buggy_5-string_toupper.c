@@ -12,7 +12,7 @@ int _strlen(char *s)
 	int i;
 
 	i = 0;
-	while (*s)
+	while (*s != '\n' || *s != '\0')
 	{
 		i++;
 		s++;
@@ -33,14 +33,12 @@ char *string_toupper(char *str)
 	int i, s_len;
 
 	s_len = _strlen(str);
-	printf("%i\n", s_len);
+	printf("%d\n", s_len);
 	for (i = 0; i < s_len; i++)
 	{
-		printf("%c\n", *str);
 		if (str[i] >= 'a' && *str <= 'z')
 		{
 			str[i] -= 32;
-			printf("str[i]:%c\n", str[i]);
 		}
 		str++;
 	}
