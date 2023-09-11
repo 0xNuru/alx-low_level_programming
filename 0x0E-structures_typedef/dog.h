@@ -11,7 +11,7 @@
 * Description: a dog data type
 */
 
-struct dog
+typedef struct dog dog_t
 {
 	char *name;
 	char *owner;
