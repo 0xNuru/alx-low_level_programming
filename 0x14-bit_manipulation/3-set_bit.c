@@ -3,7 +3,7 @@
 /**
 * set_bit - a function that sets the value of a bit to 1
 * @n: number to be altered
-*
+* @index: the index at which the bit should be altered
 * Return: (1) for success
 * (-1) failure
 */
