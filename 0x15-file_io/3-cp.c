@@ -17,9 +17,7 @@ void error_and_exit(int exit_code, const char *message)
 
 int main(int argc, char *argv[])
 {
-	int fd1, fd2;
-	const int BYTES = 1024;
-	int bytes_read = 1024, bytes_written;
+	int fd1, fd2, BYTES = 1024, bytes_read = 1024, bytes_written;
 	char buffer[1024];
 
 	if (argc != 3)
@@ -33,7 +31,7 @@ int main(int argc, char *argv[])
 	fd2 = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
 	if (fd2 == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
 	while (bytes_read == BYTES)
@@ -47,7 +45,7 @@ int main(int argc, char *argv[])
 		bytes_written = write(fd2, buffer, bytes_read);
 		if (bytes_written == -1)
 		{
-			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[2]);
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 			exit(99);
 		}
 	}
