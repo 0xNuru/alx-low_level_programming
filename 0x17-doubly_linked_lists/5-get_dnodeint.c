@@ -3,6 +3,7 @@
 /**
 * get_dnodeint_at_index - a function that gets node at index
 * @head: a pointer to the head of the DLL
+* @index: the index at which the node should be found
 *
 * Return: returns the node gotten, if the node does not exist, return NULL
 */
