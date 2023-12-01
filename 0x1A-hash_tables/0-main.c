@@ -12,7 +12,8 @@ int main(void)
 {
     hash_table_t *ht;
 
-    ht = hash_table_create(1024);
+    ht = hash_table_create(2048);
+    printf("%lu\n", sizeof(*ht));
     printf("%p\n", (void *)ht);
     return (EXIT_SUCCESS);
 }
