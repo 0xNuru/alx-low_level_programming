@@ -12,10 +12,10 @@ OBJ = $(SRC:.c=.o)
 NAME = school
 RM = rm
 
-all: $(NAME)
+all: program
 
 #Target: Dependencies
-$(NAME): $(OBJ)
+program: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
 # THIS LINE CAN BE OMITTED BECAUSE IMPLICIT RULE CAN BUILD IT
