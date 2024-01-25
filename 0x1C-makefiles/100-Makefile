@@ -10,7 +10,6 @@ SRC = main.c school.c
 #
 OBJ = $(SRC:.c=.o)
 NAME = school
-RM = rm
 CFLAGS = -Wall -Werror -Wextra -pedantic
 
 all: program
@@ -38,4 +37,4 @@ fclean: clean oclean
 re: fclean all
 
 # Make sure make doesn't interpret clean, oclean, fclean, and re as files
-PHONY: clean oclean fclean re
+.PHONY: all clean oclean fclean re
