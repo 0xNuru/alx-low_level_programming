@@ -27,10 +27,10 @@ program: $(OBJ)
 	$(CC) -c $< -o $@
 
 clean:
-	$(RM) *~ *.swp $(NAME)
+	$(RM) -f *~ *.swp $(NAME)
 
 oclean:
-	$(RM) $(OBJ)
+	$(RM) -f $(OBJ)
 
 fclean: clean oclean
 
